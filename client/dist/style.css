@@ -1,0 +1,30 @@
+/* #app-root { background: #AAAAAA; } */
+.game-board { background: rgb(252, 245, 183); }
+.board-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.board-pos {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.board-pos:hover {
+  cursor: pointer;
+}
+.occupied-pos {
+  border-radius: 50%;
+}
+.white-pos {
+  background: white;
+}
+.black-pos {
+  background: black;
+}
+h1, h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 300;
+}
