@@ -1,5 +1,10 @@
 /* #app-root { background: #AAAAAA; } */
-.game-board { background: rgb(252, 245, 183); }
+.game-board {
+  background: url('./images/Blank_Go_board.svg');
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+}
 .board-row {
   display: flex;
   flex-direction: row;
@@ -8,8 +13,10 @@
 .board-pos {
   width: 15px;
   height: 15px;
-  margin: 10px;
-  border: 1px solid black;
+  margin-top: 2.5px;
+  margin-left: -10px;
+  margin-right: 2.5px;
+  margin-bottom: 10px;
 }
 .board-pos:hover {
   cursor: pointer;
@@ -19,9 +26,11 @@
 }
 .white-pos {
   background: white;
+  border: 1px solid black;
 }
 .black-pos {
   background: black;
+  border: 1px solid black;
 }
 h1, h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
