@@ -2,21 +2,22 @@
 .game-board {
   background: url('./images/Blank_Go_board.svg');
   background-size: contain;
-  height: 400px;
-  width: 400px;
+  height: 460px;
+  width: 460px;
+  padding-top: 7px;
+  white-space: nowrap;
 }
 .board-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  padding-left: 7px;
 }
 .board-pos {
   width: 15px;
   height: 15px;
-  margin-top: 2.5px;
-  margin-left: -10px;
-  margin-right: 2.5px;
-  margin-bottom: 10px;
+  margin-right: 8.5px;
+  margin-bottom: 7px;
 }
 .board-pos:hover {
   cursor: pointer;

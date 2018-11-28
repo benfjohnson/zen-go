@@ -33,11 +33,11 @@ type alias Model =
 
 boardRow : List (Maybe Stone)
 boardRow =
-    [ Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing ]
+    [ Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing, Nothing ]
 
 init : Model
 init =
-    { board = [ boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow ]
+    { board = [ boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow, boardRow ]
     , currentTurn = Black
     }
 
