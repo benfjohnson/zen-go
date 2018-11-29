@@ -4,20 +4,19 @@
   background-size: contain;
   height: 460px;
   width: 460px;
-  padding-top: 7px;
+  padding: 7px;
   white-space: nowrap;
 }
 .board-row {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding-left: 7px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9.7px;
 }
 .board-pos {
   width: 15px;
   height: 15px;
-  margin-right: 8.5px;
-  margin-bottom: 7px;
 }
 .board-pos:hover {
   cursor: pointer;
@@ -27,11 +26,10 @@
 }
 .white-pos {
   background: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .black-pos {
   background: black;
-  border: 1px solid black;
 }
 h1, h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
